@@ -1,7 +1,7 @@
 # CTSE_ChatBot
 
 📘 CTSE Chatbot – Lecture Notes Question Answering System
-This project is an intelligent chatbot designed to answer questions based on the content of a given lecture PDF (e.g., CTSE.pdf). It uses LangChain, Hugging Face Transformers, and FAISS to process the document, generate embeddings, retrieve relevant content, and generate accurate answers from it.
+This project is an intelligent chatbot designed to answer questions based on the content of a given lecture PDF (e.g., CTSE.pdf). It uses LangChain, Hugging Face Transformers, and FAISS to process the document, generate embeddings, retrieve relevant content, and generate accurate answers.
 
 ✨ Key Features
 📄 PDF Loader – Parses lecture notes using PyPDFLoader.
@@ -15,8 +15,6 @@ This project is an intelligent chatbot designed to answer questions based on the
 💬 Flan-T5 Based LLM – Answers are generated with the lightweight google/flan-t5-small model.
 
 ❌ Hallucination Prevention – Skips answers when relevant content is missing.
-
-📚 Sources Displayed – Shows source document excerpts for every answer.
 
 🛠️ Error Handling & Logging – Logs weak or unanswered queries to incorrect_answers.log.
 
